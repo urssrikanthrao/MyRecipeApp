@@ -21,6 +21,7 @@ const Recipes = () => {
     const [searchText, setSearchText] = useState("");
     const [favoriteRecipe, setFavoriteRecipe] = useState([]);
     //const [filterRecipes,setFilterRecipes] =useState([]);
+    console.log("Test")
     useEffect(() => {
         fetch('./foodRecipeResponse.json')
         fetch(url, options)
