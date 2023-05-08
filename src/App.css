@@ -1,0 +1,51 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: blueviolet;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mainPageList{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.cardsGalleryStyle{
+    padding:5px;
+}
+
+.divWrap{
+  font-style: italic;
+  
+  inline-size: 250px;
+  overflow-wrap: break-word;
+}
+.divcentered {
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+  }

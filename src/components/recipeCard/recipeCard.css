@@ -1,0 +1,41 @@
+.defaultCard {
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.cardBackground {
+    background-color: pink;
+}
+
+.imageStyle {
+    border-radius: 120px;
+}
+
+.divRecipe {
+    display: flexbox;
+    padding: 2px;
+}
+
+.minutesButton {
+    border-radius: 125px;
+    background-color: aliceblue;
+
+}
+li{
+    align-items: flex-start;
+}
+.servingButton
+{
+    border-radius: 125px;
+    background-color: mediumpurple;
+}
+.faHeart{
+    color: lightskyblue;
+}
+
+.faFavHeart{
+    color: red;
+}
